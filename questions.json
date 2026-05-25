@@ -420,6 +420,426 @@
     "answer": "正确"
   },
   {
+    "id": "demo_judge",
+    "type": "judge",
+    "question": "火灾自动报警系统控制器不可长时间处于备电工作状态,否则将导致蓄电池亏电损坏。",
+    "options": ["正确", "错误"],
+    "answer": "正确"
+  },
+  {
+    "id": "demo_judge",
+    "type": "judge",
+    "question": "消防控制室图形显示装置可查看报警信息和确定报警部位。",
+    "options": ["正确", "错误"],
+    "answer": "正确"
+  },
+  {
+    "id": "demo_judge",
+    "type": "judge",
+    "question": "应急照明控制器应设置在消防控制室内或有人值班的场所。",
+    "options": ["正确", "错误"],
+    "answer": "正确"
+  },
+  {
+    "id": "demo_judge",
+    "type": "judge",
+    "question": "县级以上地方人民政府应急管理部门对本行政区域内的消防工作实施监督管理,并由本级人民政府消防救援机构负责实施。",
+    "options": ["正确", "错误"],
+    "answer": "正确"
+  },
+  {
+    "id": "demo_judge",
+    "type": "judge",
+    "question": "火灾高危单位应至少每季度组织一次灭火和应急疏散预案演练。",
+    "options": ["正确", "错误"],
+    "answer": "正确"
+  },
+  {
+    "id": "demo_judge",
+    "type": "judge",
+    "question": "特级防火卷帘可以应用于防火分隔部位，也可代替防火墙或防火隔墙。",
+    "options": ["正确", "错误"],
+    "answer": "错误"
+  },
+  {
+    "id": "demo_judge",
+    "type": "judge",
+    "question": "屏幕保护可以防止用户不在时，非授权用户看到屏幕上的内容，屏幕保护密码则是在用户从屏幕保护状态转换到运行状态时，需要输入的账户密码。",
+    "options": ["正确", "错误"],
+    "answer": "正确"
+  },
+  {
+    "id": "demo_judge",
+    "type": "judge",
+    "question": "防火门监控器应有防火门故障状态总指示灯。",
+    "options": ["正确", "错误"],
+    "answer": "正确"
+  },
+  {
+    "id": "demo_judge",
+    "type": "judge",
+    "question": "一台集中火灾报警控制器（联动型）可以设置多个总线控制盘。",
+    "options": ["正确", "错误"],
+    "answer": "正确"
+  },
+  {
+    "id": "demo_judge",
+    "type": "judge",
+    "question": "火灾显示盘的信息显示应按火灾报警、故障、监管报警的顺序由高至低排列显示等级",
+    "options": ["正确", "错误"],
+    "answer": "错误"
+  },
+  {
+    "id": "demo_judge",
+    "type": "judge",
+    "question": "常用的火灾监管设备有压力开关、水流指示器、水力警铃、信号蝶阀等。",
+    "options": ["正确", "错误"],
+    "answer": "错误"
+  },
+  {
+    "id": "demo_judge",
+    "type": "judge",
+    "question": "在消防控制室进行总机与所有消防电话分机、电话插孔之间互相呼叫与通话，呼叫铃声、通话应语音清晰，无振鸣。",
+    "options": ["正确", "错误"],
+    "answer": "正确"
+  },
+  {
+    "id": "demo_judge",
+    "type": "judge",
+    "question": "对可燃气体报警控制器进行保养后，保养人员需要仔细检查并确保没有异物落入且遗留在机柜(壳)内、电器元件及线路中，检查完成后方可上电。",
+    "options": ["正确", "错误"],
+    "answer": "正确"
+  },
+  {
+    "id": "demo_judge",
+    "type": "judge",
+    "question": "应急照明控制器复位前，应确保火灾报警控制器已复位。",
+    "options": ["正确", "错误"],
+    "answer": "正确"
+  },
+  {
+    "id": "demo_judge",
+    "type": "judge",
+    "question": "预作用自动喷水灭火系统是在准工作状态时配水管道内不充水，发生火灾时由火灾自动报警系统、充气管道上的压力开关联锁控制预作用装置和消防水泵，向配水管道供水的闭式系统。",
+    "options": ["正确", "错误"],
+    "answer": "正确"
+  },
+  {
+    "id": "demo_judge",
+    "type": "judge",
+    "question": "干式系统喷头开启后管道排气充水后出水，效率高于湿式系统。",
+    "options": ["正确", "错误"],
+    "answer": "错误"
+  },
+  {
+    "id": "demo_judge",
+    "type": "judge",
+    "question": "接线检查应在消防电话总机通电状态下进行。",
+    "options": ["正确", "错误"],
+    "answer": "错误"
+  },
+  {
+    "id": "demo_judge",
+    "type": "judge",
+    "question": "排烟系统是通过采用自然排烟或机械排烟的方式，将楼梯间、走道等空间的火灾烟气排至建筑物外的系统",
+    "options": ["正确", "错误"],
+    "answer": "错误"
+  },
+  {
+    "id": "demo_judge",
+    "type": "judge",
+    "question": "区域火灾报警系统应由火灾探测器、手动火灾报警按钮、火灾声光警报器及火灾报警控制器等组成",
+    "options": ["正确", "错误"],
+    "answer": "正确"
+  },
+  {
+    "id": "demo_judge",
+    "type": "judge",
+    "question": "歌舞娱乐放映游艺场所布置在地下一层或地上四层及以上楼层时，每个房间的建筑面积不应大于200m2",
+    "options": ["正确", "错误"],
+    "answer": "正确"
+  },
+  {
+    "id": "demo_judge",
+    "type": "judge",
+    "question": "建筑高度大于54m但不大于100m的住宅建筑，其公共部位应设置火灾自动报警系统",
+    "options": ["正确", "错误"],
+    "answer": "正确"
+  },
+  {
+    "id": "demo_judge",
+    "type": "judge",
+    "question": "当有两个及以上消防控制室时，各分消防控制室内消防设备之间可互相传输、显示状态信息，并能互相控制",
+    "options": ["正确", "错误"],
+    "answer": "错误"
+  },
+  {
+    "id": "demo_judge",
+    "type": "judge",
+    "question": "手动火灾报警按钮是通过自动或手动方式产生火灾报警信息、启动火灾自动报警系统的器件",
+    "options": ["正确", "错误"],
+    "answer": "错误"
+  },
+  {
+    "id": "demo_judge",
+    "type": "judge",
+    "question": "座板的功能是在防火卷帘下放后封堵洞口，阻止火灾蔓延和控制烟雾扩散",
+    "options": ["正确", "错误"],
+    "answer": "错误"
+  },
+  {
+    "id": "demo_judge",
+    "type": "judge",
+    "question": "对不可恢复的线型感温火灾探测器，无法模拟火灾和故障，检查探测器能否发出火灾报警和故障信号",
+    "options": ["正确", "错误"],
+    "answer": "错误"
+  },
+  {
+    "id": "demo_judge",
+    "type": "judge",
+    "question": "消防设施操作员是水平评价类职业资格",
+    "options": ["正确", "错误"],
+    "answer": "错误"
+  },
+  {
+    "id": "demo_judge",
+    "type": "judge",
+    "question": "社会单位消防工作4个能力的是检查消除火灾隐患能力，扑救初起火灾能力，组织人员疏散逃生能力、消防宣传教育培训能力。",
+    "options": ["正确", "错误"],
+    "answer": "正确"
+  },
+  {
+    "id": "demo_judge",
+    "type": "judge",
+    "question": "建筑面积大于或等于500m2的电影摄影棚应设置雨淋系统。",
+    "options": ["正确", "错误"],
+    "answer": "正确"
+  },
+  {
+    "id": "demo_judge",
+    "type": "judge",
+    "question": "摄影机属于输入设备。",
+    "options": ["正确", "错误"],
+    "answer": "正确"
+  },
+  {
+    "id": "demo_judge",
+    "type": "judge",
+    "question": "对送风机进行保养前，应先断开主电源。",
+    "options": ["正确", "错误"],
+    "answer": "正确"
+  },
+  {
+    "id": "demo_judge",
+    "type": "judge",
+    "question": "当风机电气控制柜的双电源转换开关控制按钮处于“手动”位置时，只能通过人工进行供电状态切换。",
+    "options": ["正确", "错误"],
+    "answer": "正确"
+  },
+  {
+    "id": "demo_judge",
+    "type": "judge",
+    "question": "火灾自动报警系统是以通过火灾早期探测和报警，向各类消防设备发出控制信号并接收设备反馈信号，进而实现预定消防功能为基本任务的一种自动消防设施。",
+    "options": ["正确", "错误"],
+    "answer": "正确"
+  },
+  {
+    "id": "demo_judge",
+    "type": "judge",
+    "question": "当防火门监控器处于手动控制状态时，常开式防火门不能通过消防联动控制器联动关闭。",
+    "options": ["正确", "错误"],
+    "answer": "正确"
+  },
+  {
+    "id": "demo_judge",
+    "type": "judge",
+    "question": "老年人照料设施的居室和休息室不应布置在地下或半地下。",
+    "options": ["正确", "错误"],
+    "answer": "正确"
+  },
+  {
+    "id": "demo_judge",
+    "type": "judge",
+    "question": "由于人员能够进入水塔内部进行维修工作，故水塔属于建筑物。",
+    "options": ["正确", "错误"],
+    "answer": "错误"
+  },
+  {
+    "id": "demo_judge",
+    "type": "judge",
+    "question": "水幕系统是由开式洒水喷头或水幕喷头、雨淋报警阀组或感温雨淋报警阀等组成，用于防火分隔或防护冷却的闭式系统",
+    "options": ["正确", "错误"],
+    "answer": "错误"
+  },
+  {
+    "id": "demo_judge",
+    "type": "judge",
+    "question": "机械加压送风系统打开后，楼层间形成'防烟楼梯间压力小于前室压力小于走道压力小于房间压力'的递减压力分布,从而阻止烟气侵入，控制烟气蔓延。",
+    "options": ["正确", "错误"],
+    "answer": "错误"
+  },
+  {
+    "id": "demo_judge",
+    "type": "judge",
+    "question": "在石油库中，地上固定顶储罐、内浮顶储罐和地上卧式储罐应设低倍数泡沫灭火系统或中倍数泡沫灭火系统。",
+    "options": ["正确", "错误"],
+    "answer": "正确"
+  },
+  {
+    "id": "demo_judge",
+    "type": "judge",
+    "question": "闭式洒水喷头无热敏感释放机构，火灾时通过控制设备启动。",
+    "options": ["正确", "错误"],
+    "answer": "错误"
+  },
+  {
+    "id": "demo_judge",
+    "type": "judge",
+    "question": "泵组式细水雾灭火系统应具有自动、手动和机械应急操作控制方式。",
+    "options": ["正确", "错误"],
+    "answer": "错误"
+  },
+  {
+    "id": "demo_judge",
+    "type": "judge",
+    "question": "固定式泡沫灭火系统适用于单罐容量大于1000m3的甲、乙、丙类液体固定顶罐。",
+    "options": ["正确", "错误"],
+    "answer": "正确"
+  },
+  {
+    "id": "demo_judge",
+    "type": "judge",
+    "question": "《气体灭火系统设计规范》主要内容包括总则、术语和符号、设计要求、系统组件、操作与控制、安全要求等。",
+    "options": ["正确", "错误"],
+    "answer": "正确"
+  },
+  {
+    "id": "demo_judge",
+    "type": "judge",
+    "question": "对送风机的末端配电装置保养时，如发现线路接头处有氧化、锈蚀痕迹，应采取镀锡和涂抹凡士林等防潮、防锈措施。",
+    "options": ["正确", "错误"],
+    "answer": "正确"
+  },
+  {
+    "id": "demo_judge",
+    "type": "judge",
+    "question": "机关、团体、企业、事业等单位是消防安全的责任主体，消防工作分管领导是本单位、本场所消防安全责任人，对本单位、本场所消防安全全面负责。",
+    "options": ["正确", "错误"],
+    "answer": "错误"
+  },
+  {
+    "id": "demo_judge",
+    "type": "judge",
+    "question": "《消防给水及消火栓系统技术规范》适用于新建、扩建、改建的工业、民用、市政等建设工程的消防给水及消火栓系统的设计、施工、验收和维护管理。",
+    "options": ["正确", "错误"],
+    "answer": "正确"
+  },
+  {
+    "id": "demo_judge",
+    "type": "judge",
+    "question": "集中报警系统适用于不仅需要报警，同时需要联动自动消防设备，且只设置一台具有集中控制功能的火灾报警控制器和消防联动控制器的保护对象。",
+    "options": ["正确", "错误"],
+    "answer": "正确"
+  },
+  {
+    "id": "demo_judge",
+    "type": "judge",
+    "question": "集中报警系统适用于仅需要报警，不需要联动自动消防设备的保护对象。",
+    "options": ["正确", "错误"],
+    "answer": "错误"
+  },
+  {
+    "id": "demo_judge",
+    "type": "judge",
+    "question": "室外消火栓给水为临时高压给水系统时，若发生火灾，室外消火栓不能直接与消防水带、消防水枪连接实施灭火。",
+    "options": ["正确", "错误"],
+    "answer": "错误"
+  },
+  {
+    "id": "demo_judge",
+    "type": "judge",
+    "question": "建筑内设置消防电梯时，每个防火分区可供使用的消防电梯不应少于1部。",
+    "options": ["正确", "错误"],
+    "answer": "正确"
+  },
+  {
+    "id": "demo_judge",
+    "type": "judge",
+    "question": "当自动水灭火系统为开式系统，且设置自动启动确有困难时，经论证后消防水泵可设置为手动启动状态，并应确保24h有人值班。",
+    "options": ["正确", "错误"],
+    "answer": "正确"
+  },
+  {
+    "id": "demo_judge",
+    "type": "judge",
+    "question": "举办大型群众性活动，承办人无需制定灭火和应急疏散预案并组织演练。",
+    "options": ["正确", "错误"],
+    "answer": "错误"
+  },
+  {
+    "id": "demo_judge",
+    "type": "judge",
+    "question": "目前，国内根据可燃物质的类型和燃烧特性将火灾分为A类、B类、C类、D类、E类、F类六种类型。",
+    "options": ["正确", "错误"],
+    "answer": "正确"
+  },
+  {
+    "id": "demo_judge",
+    "type": "judge",
+    "question": "固体之间的热量可以通过热对流传导。",
+    "options": ["正确", "错误"],
+    "answer": "错误"
+  },
+  {
+    "id": "demo_judge",
+    "type": "judge",
+    "question": "建筑高度大于100m的工业与民用建筑应设置避难层，且第一个避难层的楼面至消防车登高操作场地地面的高度不应大于30m。",
+    "options": ["正确", "错误"],
+    "answer": "错误"
+  },
+  {
+    "id": "demo_judge",
+    "type": "judge",
+    "question": "集中火灾报警控制器或火灾报警控制器，应能显示火灾报警部位信号和控制信号，但不能进行联动控制。",
+    "options": ["正确", "错误"],
+    "answer": "正确"
+  },
+  {
+    "id": "demo_judge",
+    "type": "judge",
+    "question": "气体灭火系统适用于扑救电气火灾。",
+    "options": ["正确", "错误"],
+    "answer": "正确"
+  },
+  {
+    "id": "demo_judge",
+    "type": "judge",
+    "question": "《城市消防远程监控系统技术规范》适用于城市消防远程监控系统的设计、施工、验收及运行维护。",
+    "options": ["正确", "错误"],
+    "answer": "正确"
+  },
+  {
+    "id": "demo_judge",
+    "type": "judge",
+    "question": "为了保证防火卷帘、防火门、防火窗工程的施工质量和使用功能，减少火灾危害，保护人身和财产安全，制定《防火卷帘、防火门、防火窗施工及验收规范》。",
+    "options": ["正确", "错误"],
+    "answer": "正确"
+  },
+  {
+    "id": "demo_judge",
+    "type": "judge",
+    "question": "商业服务网点是指设置在住宅建筑的首层或首层及2层,每个分隔单元建筑面积不大于300m2的商店、邮政所、储蓄所、理发店等小型营业性用房。",
+    "options": ["正确", "错误"],
+    "answer": "正确"
+  },
+  {
+    "id": "demo_judge",
+    "type": "judge",
+    "question": "消防联动控制器接收火灾报警控制器发出的火灾报警信息，按预设逻辑对建筑中设置的自动消防系统(设施)进行联动控制。",
+    "options": ["正确", "错误"],
+    "answer": "正确"
+  },
+  {
     "id": "demo_single",
     "type": "single",
     "question": "下列不属于消防泵组及电气控制柜保养要求的是()",
@@ -1122,6 +1542,706 @@
     "type": "single",
     "question": "微型消防站应建立24h值守制度，分班编组值守，每班不少于()人。",
     "options": ["A. 1", "B. 3", "C. 5", "D. 7"],
+    "answer": "B"
+  },
+  {
+    "id": "demo_single",
+    "type": "single",
+    "question": "()是使常开防火门保持打开状态,在收到指令后释放防火门使其关闭,并将本身的状态信息反馈至防火门监控器的电动装置。",
+    "options": ["A. 防火门电磁释放器", "B. 防火门电动闭门器", "C. 防火门监控器", "D. 防火门磁开关"],
+    "answer": "A"
+  },
+  {
+    "id": "demo_single",
+    "type": "single",
+    "question": "任一台应急照明控制器直接控制灯具的总数量不应大于()只。",
+    "options": ["A. 1600", "B. 2400", "C. 2800", "D. 3200"],
+    "answer": "D"
+  },
+  {
+    "id": "demo_single",
+    "type": "single",
+    "question": "职业分类是指以工作性质的()为基本原则，对社会职业进行的系统划分与归类。",
+    "options": ["A. 统一性", "B. 相似性", "C. 同一性", "D. 相关性"],
+    "answer": "C"
+  },
+  {
+    "id": "demo_single",
+    "type": "single",
+    "question": "防火卷帘卷门机具有依靠防火卷帘自重()下降的功能，可通过控制器速放控制装置在卷门机电源发生故障时，启动速放装置。",
+    "options": ["A. 快速", "B. 高速", "C. 恒速", "D. 急速"],
+    "answer": "C"
+  },
+  {
+    "id": "demo_single",
+    "type": "single",
+    "question": "现行的《建筑消防设施的维护管理》(GB25201)于2010年9月26日颁布，自()实施。",
+    "options": ["A. 2010年12月1日", "B. 2011年3月1日", "C. 2011年1月1日", "D. 2011年5月1日"],
+    "answer": "B"
+  },
+  {
+    "id": "demo_single",
+    "type": "single",
+    "question": "消防联动控制器可以采用()和/或字母(符)显示相关信息。",
+    "options": ["A. 数字", "B. 图像", "C. 图形", "D. 指示灯"],
+    "answer": "A"
+  },
+  {
+    "id": "demo_single",
+    "type": "single",
+    "question": "应急照明控制器设置在消防控制室墙面上时，设备正面操作距离不应小于()m",
+    "options": ["A. 1", "B. 1.1", "C. 1.3", "D. 1.2"],
+    "answer": "D"
+  },
+  {
+    "id": "demo_single",
+    "type": "single",
+    "question": "应急照明控制器设置在消防控制室地面上时，设备面板至墙的距离不应小于()m",
+    "options": ["A. 2.5", "B. 1.5", "C. 3", "D. 2"],
+    "answer": "C"
+  },
+  {
+    "id": "demo_single",
+    "type": "single",
+    "question": "应急照明控制器设置在消防控制室地面上时，设备面板后的维修距离不应小于()m",
+    "options": ["A. 0.5", "B. 1.2", "C. 0.8", "D. 1"],
+    "answer": "D"
+  },
+  {
+    "id": "demo_single",
+    "type": "single",
+    "question": "排烟防火阀安装在机械排烟系统的管道上,平时呈开启状态,火灾时当排烟管道内烟气温度达到()℃时自动关闭。",
+    "options": ["A. 280", "B. 180", "C. 200", "D. 100"],
+    "answer": "A"
+  },
+  {
+    "id": "demo_single",
+    "type": "single",
+    "question": "故障电弧探测器是能够区分()配电线路中操作正常电弧和故障电弧，消除电气火灾隐患的电气火灾监控探测器。",
+    "options": ["A. 常压", "B. 低压", "C. 中压", "D. 高压"],
+    "answer": "B"
+  },
+  {
+    "id": "demo_single",
+    "type": "single",
+    "question": "消防电梯排水井的容量不应小于()m3",
+    "options": ["A. 1", "B. 2", "C. 3", "D. 4"],
+    "answer": "B"
+  },
+  {
+    "id": "demo_single",
+    "type": "single",
+    "question": "焦炭的燃烧属于()",
+    "options": ["A. 蒸发燃烧", "B. 分解燃烧", "C. 表面燃烧", "D. 沸溢燃烧"],
+    "answer": "C"
+  },
+  {
+    "id": "demo_single",
+    "type": "single",
+    "question": "()是指物体通过电磁波直接向外传递热量的现象。",
+    "options": ["A. 热传导", "B. 热交换", "C. 热辐射", "D. 热对流"],
+    "answer": "C"
+  },
+  {
+    "id": "demo_single",
+    "type": "single",
+    "question": "中倍数泡沫灭火系统是指发泡倍数为（）的泡沫灭火系统。",
+    "options": ["A. 小于20", "B. 21-200", "C. 201-1000", "D. 大于1000"],
+    "answer": "B"
+  },
+  {
+    "id": "demo_single",
+    "type": "single",
+    "question": "()是程序加文档的集合体，是一系列按照特定顺序组织的计算机数据和指令的集合",
+    "options": ["A. CPU", "B. Word", "C. 硬件", "D. 软件"],
+    "answer": "D"
+  },
+  {
+    "id": "demo_single",
+    "type": "single",
+    "question": "通过单击()右侧的中/英按钮，可以切换中英文输入法",
+    "options": ["A. 桌面", "B. 开始菜单", "C. 任务栏", "D. 软件窗口"],
+    "answer": "C"
+  },
+  {
+    "id": "demo_single",
+    "type": "single",
+    "question": "输入设备(Input Device)是指向计算机输入()的设备。",
+    "options": ["A. 字体和符号", "B. 图像和视频", "C. 数据和信息", "D. U盘和磁盘"],
+    "answer": "C"
+  },
+  {
+    "id": "demo_single",
+    "type": "single",
+    "question": "单独建造的消防控制室，耐火等级不应低于（）",
+    "options": ["A. 一级", "B. 二级", "C. 三级", "D. 四级"],
+    "answer": "B"
+  },
+  {
+    "id": "demo_single",
+    "type": "single",
+    "question": "下列不属于电气火灾监控器的保养步骤的是（）",
+    "options": ["A. 使用钥匙打开箱门，将监控器主、备电源切断", "B. 用小毛刷将机柜(壳)内设备空隙和线材上的灰尘和杂质清扫出来，然后用吸尘器清理干净", "C. 检查线路接头处有无氧化或锈蚀痕迹，若有则应采取防潮、防锈措施，如镀锡和涂凡士林等", "D. 保养结束后，给监控器送电，钥匙放入箱内"],
+    "answer": "D"
+  },
+  {
+    "id": "demo_single",
+    "type": "single",
+    "question": "职业责任有差异性、()和强制性等特点。",
+    "options": ["A. 独特性", "B. 独立性", "C. 关联性", "D. 相关性"],
+    "answer": "B"
+  },
+  {
+    "id": "demo_single",
+    "type": "single",
+    "question": "()是在职业分类的基础上，根据职业活动内容，对从业人员的理论知识和技能要求提出的综合性水平规定",
+    "options": ["A. 职业分类", "B. 职业道德", "C. 行业规范", "D. 国家职业技能标准"],
+    "answer": "D"
+  },
+  {
+    "id": "demo_single",
+    "type": "single",
+    "question": "准工作状态时配水管道内充满用于启动系统的有压水的自动水灭火系统是()",
+    "options": ["A. 干式系统", "B. 湿式系统", "C. 水系统", "D. 预作用系统"],
+    "answer": "B"
+  },
+  {
+    "id": "demo_single",
+    "type": "single",
+    "question": "电缆隧道、电缆竖井、电缆夹层等场所或部位，宜选择()火灾探测器。",
+    "options": ["A. 线型缆式感温", "B. 线型光纤感温", "C. 线型定温", "D. 线型光束感烟"],
+    "answer": "A"
+  },
+  {
+    "id": "demo_single",
+    "type": "single",
+    "question": "当有限空间发生火灾时，可采取()等方法，阻止空气进入燃烧区域，或向封闭空间内注入惰性气体降低氧气浓度，以达到窒息灭火效果。",
+    "options": ["A. 封堵孔洞、门窗", "B. 开窗通风", "C. 自行熄灭", "D. 使用气体灭火剂"],
+    "answer": "A"
+  },
+  {
+    "id": "demo_single",
+    "type": "single",
+    "question": "发生火灾时，集中电源非集中控制型消防应急照明和疏散指示系统的（）联动控制集中电源和/或应急照明分配电装置的工作状态，进而控制各路消防应急灯具的工作状态。",
+    "options": ["A. 火灾报警控制器或消防联动控制器", "B. 应急照明集中控制器", "C. 消防联动控制器", "D. 火灾报警控制器"],
+    "answer": "C"
+  },
+  {
+    "id": "demo_single",
+    "type": "single",
+    "question": "()适用于火灾水平蔓延速度快的场所。如舞台、高度超过闭式喷头保护能力的空间及严重危险级Ⅱ级等场所。",
+    "options": ["A. 预作用系统", "B. 干式系统", "C. 雨淋系统", "D. 重复启闭预作用系统"],
+    "answer": "C"
+  },
+  {
+    "id": "demo_single",
+    "type": "single",
+    "question": "()适用于处于准工作状态时严禁误喷的场所。",
+    "options": ["A. 湿式系统", "B. 干式系统", "C. 预作用系统", "D. 水幕系统"],
+    "answer": "C"
+  },
+  {
+    "id": "demo_single",
+    "type": "single",
+    "question": "做好消防工作是为了()",
+    "options": ["A. 预防火灾", "B. 减少火灾危害", "C. 预防火灾和减少火灾危害", "D. 开展灭火救援行动"],
+    "answer": "C"
+  },
+  {
+    "id": "demo_single",
+    "type": "single",
+    "question": "在规定的试验条件下，可燃性液体表面产生的蒸汽在试验火焰作用下发生闪燃的最低温度称为()",
+    "options": ["A. 闪点", "B. 燃点", "C. 自燃点", "D. 自燃"],
+    "answer": "A"
+  },
+  {
+    "id": "demo_single",
+    "type": "single",
+    "question": "厂房的火灾危险性根据其生产中使用或产生的物质的性质及其数量等因素，划分为()类",
+    "options": ["A. 4", "B. 5", "C. 6", "D. 8"],
+    "answer": "B"
+  },
+  {
+    "id": "demo_single",
+    "type": "single",
+    "question": "下列属于不燃性构件的是()",
+    "options": ["A. 水泥刨花板", "B. 钢柱", "C. 木梁", "D. 宝丽板"],
+    "answer": "B"
+  },
+  {
+    "id": "demo_single",
+    "type": "single",
+    "question": "下列应设置火灾自动报警系统的场所是",
+    "options": ["A. 高层公共建筑", "B. 建筑高度大于100m的住宅建筑", "C. 座位数1000个的电影院", "D. 藏书10万册的图书馆"],
+    "answer": "B"
+  },
+  {
+    "id": "demo_single",
+    "type": "single",
+    "question": "灭火时，需将()的灭火剂喷洒到燃烧区域内，燃烧终止后仍需要采取冷却降温措施，防止火灾复燃",
+    "options": ["A. 少量", "B. 适量", "C. 足量", "D. 大量"],
+    "answer": "C"
+  },
+  {
+    "id": "demo_single",
+    "type": "single",
+    "question": "风机电气控制柜处于备用电源工作状态时，()应点亮",
+    "options": ["A. 主电源指示灯", "B. 电源故障指示灯", "C. 备用电源指示灯", "D. 备用电源故障指示灯"],
+    "answer": "C"
+  },
+  {
+    "id": "demo_single",
+    "type": "single",
+    "question": "通过直接手动控制单元手动启停送风机，应确认送风机控制柜处于()运行模式，进入直接手动控制单元(也称多线控制盘)的()操作权限",
+    "options": ["A. 自动、手动禁止", "B. 自动、手动允许", "C. 手动、手动禁止", "D. 手动、手动允许"],
+    "answer": "B"
+  },
+  {
+    "id": "demo_single",
+    "type": "single",
+    "question": "消防水泵应能()启停和()启动",
+    "options": ["A. 手动、自动", "B. 手动、联动", "C. 自动、联动", "D. 自动、连锁"],
+    "answer": "A"
+  },
+  {
+    "id": "demo_single",
+    "type": "single",
+    "question": "火灾报警控制器/消防联动控制器按下\"查询\"键后，可选择()功能来判别现场消防设备的工作状态",
+    "options": ["A. 历史信息查询", "B. 设备历史信息查询", "C. 设备信息查询", "D. 设备操作信息查询"],
+    "answer": "C"
+  },
+  {
+    "id": "demo_single",
+    "type": "single",
+    "question": "将SD卡插入()的SD卡插槽中，按下\"文件导入\"键，设备自动进行文件导入",
+    "options": ["A. 火灾报警控制器", "B. 消防联动控制器", "C. 消防应急广播主机", "D. 以上均可以"],
+    "answer": "C"
+  },
+  {
+    "id": "demo_single",
+    "type": "single",
+    "question": "一般情况下，当选择播音范围后，广播录放盘上\"应急广播\"即自动开启，对应指示灯()点亮，消防广播按预先录制的信息进行播音",
+    "options": ["A. 红色", "B. 绿色", "C. 黄色", "D. 以上均不对"],
+    "answer": "A"
+  },
+  {
+    "id": "demo_single",
+    "type": "single",
+    "question": "集中报警系统的控制与显示设备机壳内部和外表清洁保养周期至少是每()保养一次",
+    "options": ["A. 日", "B. 周", "C. 月", "D. 季度"],
+    "answer": "C"
+  },
+  {
+    "id": "demo_single",
+    "type": "single",
+    "question": "在扬声器正前方()处，用数字声级计测量应急广播声压级(A权计)",
+    "options": ["A. 10m", "B. 3m", "C. 5m", "D. 15m"],
+    "answer": "B"
+  },
+  {
+    "id": "demo_single",
+    "type": "single",
+    "question": "接通应急照明控制器电源，打开控制器的主备电开关，控制器进入系统()状态",
+    "options": ["A. 正常监控", "B. 自检", "C. 主电工作", "D. 备电工作"],
+    "answer": "B"
+  },
+  {
+    "id": "demo_single",
+    "type": "single",
+    "question": "公众聚集场所未经（）许可的，不得投入使用、营业",
+    "options": ["A. 公安机关", "B. 应急管理部门", "C. 地方人民政府", "D. 消防救援机构"],
+    "answer": "D"
+  },
+  {
+    "id": "demo_single",
+    "type": "single",
+    "question": "下列属于可燃性构件的是()。",
+    "options": ["A. 水泥刨花板", "B. 钢柱", "C. 砖墙", "D. 木梁"],
+    "answer": "D"
+  },
+  {
+    "id": "demo_single",
+    "type": "single",
+    "question": "消防安全重点单位应至少每()组织一次演练。",
+    "options": ["A. 月", "B. 季度", "C. 半年", "D. 年"],
+    "answer": "C"
+  },
+  {
+    "id": "demo_single",
+    "type": "single",
+    "question": "()是用来进行系统设置和设备管理的一个工作集。",
+    "options": ["A. 桌面", "B. 控制面板", "C. 任务栏", "D. 开始菜单"],
+    "answer": "B"
+  },
+  {
+    "id": "demo_single",
+    "type": "single",
+    "question": "防火卷帘的温控释放装置周围温度达到()℃时，防火卷帘可以靠自重下降至完全关闭状态。",
+    "options": ["A. 63±0.5", "B. 69±0.5", "C. 73±0.5", "D. 79±0.5"],
+    "answer": "C"
+  },
+  {
+    "id": "demo_single",
+    "type": "single",
+    "question": "喷头是自动喷水灭火系统的主要组件之一，根据其灵敏性，响应时间指数RTI≤50(m·s)^0.5的喷头属于（）。",
+    "options": ["A. 标准响应喷头", "B. 早期抑制快速响应喷头", "C. 快速响应喷头", "D. 特殊响应喷头"],
+    "answer": "C"
+  },
+  {
+    "id": "demo_single",
+    "type": "single",
+    "question": "对集中火灾报警控制器、消防联动控制器、消防控制室图形显示装置的打印机的保养方法中正确是（）。",
+    "options": ["A. 打印机走纸不正常或者打印文字不清晰应及时修复", "B. 打印机不宜长时间通电", "C. 打印纸无备量", "D. 打印机不应设置为即时打印"],
+    "answer": "A"
+  },
+  {
+    "id": "demo_single",
+    "type": "single",
+    "question": "在消防控制室将()从消防电话总机的支架上摘下，系统自动进入呼叫准备。",
+    "options": ["A. 话筒", "B. 电话分机", "C. 电话插孔", "D. 电话手柄"],
+    "answer": "A"
+  },
+  {
+    "id": "demo_single",
+    "type": "single",
+    "question": "消防水泵不应设置自动()的控制功能，应由具有管理权限的工作人员根据火灾扑救情况确定。",
+    "options": ["A. 启泵", "B. 启动", "C. 停泵", "D. 启停"],
+    "answer": "C"
+  },
+  {
+    "id": "demo_single",
+    "type": "single",
+    "question": "下列关于自动喷水灭火系统适用范围的说法中错误的是（）。",
+    "options": ["A. 湿式系统适合在环境温度不低于4℃且不高于70℃的环境中使用", "B. 严禁系统误喷的忌水场所应采用预作用系统", "C. 室内净空高度超过一定高度，且必须迅速扑救的初期火灾和属于中危险级Ⅱ级及以上的场所应采用雨淋系统", "D. 干式系统可以适用于环境温度高于70℃的场所"],
+    "answer": "C"
+  },
+  {
+    "id": "demo_single",
+    "type": "single",
+    "question": "下列哪项不属于线型光束感烟火灾探测器底座的保养检查内容（）。",
+    "options": ["A. 与墙体安装是否稳定", "B. 接线端子是否松动", "C. 接线是否有锈蚀", "D. 是否有划痕"],
+    "answer": "D"
+  },
+  {
+    "id": "demo_single",
+    "type": "single",
+    "question": "剪切功能的快捷组合键是（）。",
+    "options": ["A. \"Ctrl\"+\"C\"", "B. \"Ctrl\"+\"V\"", "C. \"Ctrl\"+\"X\"", "D. \"Ctrl\"+\"Z\""],
+    "answer": "C"
+  },
+  {
+    "id": "demo_single",
+    "type": "single",
+    "question": "机房湿度一般控制在()之间。",
+    "options": ["A. 50-80%", "B. 45-75%", "C. 30-60%", "D. 40-70%"],
+    "answer": "D"
+  },
+  {
+    "id": "demo_single",
+    "type": "single",
+    "question": "桌面图标可分为（）和应用程序快捷方式图标两类。",
+    "options": ["A. 回收站", "B. 我的电脑", "C. 系统图标", "D. 我的文档"],
+    "answer": "C"
+  },
+  {
+    "id": "demo_single",
+    "type": "single",
+    "question": "甲类生产场所的疏散出口门应是（）",
+    "options": ["A. 推拉门", "B. 卷帘门", "C. 平开门", "D. 无特殊要求"],
+    "answer": "C"
+  },
+  {
+    "id": "demo_single",
+    "type": "single",
+    "question": "有大量粉尘、水雾滞留的场所不宜选择（）火灾探测器。",
+    "options": ["A. 线型缆式感温", "B. 线型光纤感温", "C. 线型光束感烟", "D. 线型定温"],
+    "answer": "C"
+  },
+  {
+    "id": "demo_single",
+    "type": "single",
+    "question": "下列属于丙类厂房的是()。",
+    "options": ["A. 乙炔站", "B. 氢气站", "C. 氧气站", "D. 服装加工厂"],
+    "answer": "D"
+  },
+  {
+    "id": "demo_single",
+    "type": "single",
+    "question": "可燃物质，在没有外部火花、火焰等火源的作用下，因受热或自身发热并蓄热所产生的燃烧现象，称为（）。",
+    "options": ["A. 阴燃", "B. 着火", "C. 自燃", "D. 着火点"],
+    "answer": "C"
+  },
+  {
+    "id": "demo_single",
+    "type": "single",
+    "question": "通常情况下，CPU的位数（），CPU进行运算时候的速度就会变得越快。",
+    "options": ["A. 越高", "B. 越低", "C. 越长", "D. 越短"],
+    "answer": "A"
+  },
+  {
+    "id": "demo_single",
+    "type": "single",
+    "question": "通过现场手动按钮启动防火卷帘，应将手动按钮盒的锁定开关设置在()位置。",
+    "options": ["A. 开启", "B. 关闭", "C. 上升", "D. 下降"],
+    "answer": "A"
+  },
+  {
+    "id": "demo_single",
+    "type": "single",
+    "question": "应急照明控制器的主电源应由消防电源供电，控制器的自带蓄电池电源应至少使控制器在主电源中断后工作（）。",
+    "options": ["A. 1h", "B. 2h", "C. 3h", "D. 2.5h"],
+    "answer": "C"
+  },
+  {
+    "id": "demo_single",
+    "type": "single",
+    "question": "风机、风管(道)、风机电气控制柜的保养周期为()保养一次",
+    "options": ["A. 每月", "B. 每季度", "C. 每半年", "D. 每年"],
+    "answer": "B"
+  },
+  {
+    "id": "demo_single",
+    "type": "single",
+    "question": "()每个操作按钮对应一个控制输出，控制火灾声光报警器、消防广播、加压送风口、加压送风机、排烟阀、防火卷帘、常开/常闭防火门、非消防电源和电梯等消防设备的启动。",
+    "options": ["A. 直接控制盘", "B. 多线控制盘", "C. 总线控制盘", "D. 手动控制盘"],
+    "answer": "C"
+  },
+  {
+    "id": "demo_single",
+    "type": "single",
+    "question": "通过直接手动控制单元启动相关联动设备时，确认对应受控设备标签名称书写无误，按下相应联动设备启动按键，观察设备的\"()\"指示灯点亮情况。",
+    "options": ["A. 启动/反馈", "B. 启动/停止", "C. 联动/应答", "D. 启动/故障"],
+    "answer": "A"
+  },
+  {
+    "id": "demo_single",
+    "type": "single",
+    "question": "不用安装，下载解压后可以直接使用的软件又称()。",
+    "options": ["A. 绿色软件", "B. Office系列软件", "C. 系统软件", "D. 应用软件"],
+    "answer": "A"
+  },
+  {
+    "id": "demo_single",
+    "type": "single",
+    "question": "\"单位全面负责\"是做好消防工作的()。",
+    "options": ["A. 核心", "B. 关键", "C. 根本", "D. 基础"],
+    "answer": "C"
+  },
+  {
+    "id": "demo_single",
+    "type": "single",
+    "question": "区域报警系统适用于仅需要报警，不需要（）自动消防设备的保护对象。",
+    "options": ["A. 联动", "B. 启动", "C. 联动", "D. 连锁"],
+    "answer": "A"
+  },
+  {
+    "id": "demo_single",
+    "type": "single",
+    "question": "消防应急照明和疏散指示系统按()可分为集中电源集中控制型系统、集中电源非集中控制型系统、自带电源集中控制型系统和自带电源非集中控制型系统。",
+    "options": ["A. 系统形式", "B. 供电方式", "C. 应急控制方式", "D. 工作方式"],
+    "answer": "A"
+  },
+  {
+    "id": "demo_single",
+    "type": "single",
+    "question": "对于采用()消防给水系统的高层或多层建筑，当高位消防水箱的设置不能满足系统最不利点处的静压要求时，应在建筑消防给水系统中设置增(稳)压设施，并采取配套设置气压罐等防止稳压泵频繁启停的技术措施。",
+    "options": ["A. 高压", "B. 临时高压", "C. 低压", "D. 常压"],
+    "answer": "B"
+  },
+  {
+    "id": "demo_single",
+    "type": "single",
+    "question": "下列属于公共建筑的是()。",
+    "options": ["A. 住宅楼", "B. 砖厂", "C. 图书馆", "D. 物流仓库"],
+    "answer": "C"
+  },
+  {
+    "id": "demo_single",
+    "type": "single",
+    "question": "下列工业建筑耐火等级应为一级的是()。",
+    "options": ["A. 丁类物流建筑", "B. 多层丁类仓库", "C. 建筑高度为54m的高层厂房", "D. 多层丁类厂房"],
+    "answer": "C"
+  },
+  {
+    "id": "demo_single",
+    "type": "single",
+    "question": "下列属于高层建筑的是()。",
+    "options": ["A. 建筑高度为50m的办公楼", "B. 建筑高度为26m的单层厂房", "C. 建筑高度为20m的门诊楼", "D. 建筑高度为21m的住宅楼"],
+    "answer": "A"
+  },
+  {
+    "id": "demo_single",
+    "type": "single",
+    "question": "《火灾自动报警系统施工及验收标准》(GB 50116-2019)实施时间()",
+    "options": ["A. 2019年11月22日", "B. 2020年3月1日", "C. 2013年9月6日", "D. 2014年5月1日"],
+    "answer": "B"
+  },
+  {
+    "id": "demo_single",
+    "type": "single",
+    "question": "\"公民积极参与\"是做好消防工作的 ()",
+    "options": ["A. 核心", "B. 关键", "C. 根本", "D. 基础"],
+    "answer": "D"
+  },
+  {
+    "id": "demo_single",
+    "type": "single",
+    "question": "干粉灭火系统按应用方式分类，包括()。",
+    "options": ["A. 组合分配系统、单元独立系统", "B. 储气瓶干粉灭火系统、储压干粉灭火系统、燃气驱动干粉灭火系统", "C. 全淹没干粉灭火系统、局部应用干粉灭火系统", "D. 普通干粉灭火系统、超细干粉灭火系统"],
+    "answer": "C"
+  },
+  {
+    "id": "demo_single",
+    "type": "single",
+    "question": "下列不属于按照喷头安装位置分类的是()",
+    "options": ["A. 玻璃球喷头", "B. 下垂型喷头", "C. 直立型喷头", "D. 边墙型喷头"],
+    "answer": "A"
+  },
+  {
+    "id": "demo_single",
+    "type": "single",
+    "question": "电流流过导体产生的热量，与电流强度的()、导体的电阻及通电时间成正比。",
+    "options": ["A. 一次方", "B. 平方", "C. 三次方", "D. 四次方"],
+    "answer": "B"
+  },
+  {
+    "id": "demo_single",
+    "type": "single",
+    "question": "压力开关是一种水力驱动的压力传感装置，其作用是将系统中的()转换为电信号，是报警阀组的主要组件之一。",
+    "options": ["A. 水流信号", "B. 水压信号", "C. 流速信号", "D. 压强信号"],
+    "answer": "B"
+  },
+  {
+    "id": "demo_single",
+    "type": "single",
+    "question": "下列不属于消防水箱保养要求的是()",
+    "options": ["A. 设备铭牌标志清晰，叶轮转动灵活、无卡滞", "B. 进出水和溢流、排污等管路阀门启闭状态正确，阀门转动灵活，无锈蚀", "C. 冬季防冻措施有效", "D. 合用水箱消防用水不作他用的技术措施完好"],
+    "answer": "A"
+  },
+  {
+    "id": "demo_single",
+    "type": "single",
+    "question": "下列不属于电气火灾监控系统工作状态的是()。",
+    "options": ["A. 联动状态", "B. 正常监视状态", "C. 监控报警状态", "D. 故障报警状态"],
+    "answer": "A"
+  },
+  {
+    "id": "demo_single",
+    "type": "single",
+    "question": "查看可燃气体报警控制器的报警信息有几种方式（）。",
+    "options": ["A. 1", "B. 2", "C. 3", "D. 4"],
+    "answer": "B"
+  },
+  {
+    "id": "demo_single",
+    "type": "single",
+    "question": "对于单一集中控制构成的集中报警系统，根据火灾报警控制器/消防联动控制面板上()指示点亮信息，即可判断系统处的控制状态手动/自动。",
+    "options": ["A. 手动控制状态", "B. 自动控制状态", "C. 主电工作状态", "D. 备电故障状态"],
+    "answer": "B"
+  },
+  {
+    "id": "demo_single",
+    "type": "single",
+    "question": "消防联动控制器的主备电源的工作(故障)状态应在控制器()有指示信息。",
+    "options": ["A. 面板", "B. 指示灯", "C. 外壳", "D. 按键"],
+    "answer": "A"
+  },
+  {
+    "id": "demo_single",
+    "type": "single",
+    "question": "在消防控制室，可通过设备()关键特征结合产品标志区分火灾报警控制器、消防联动控制器和消防控制室图形显示装置。",
+    "options": ["A. 按键", "B. 面板", "C. 外壳", "D. 指示灯"],
+    "answer": "B"
+  },
+  {
+    "id": "demo_single",
+    "type": "single",
+    "question": "消防炮按()不同分为消防水炮、消防泡沫炮和消防干粉炮三种。",
+    "options": ["A. 安装形式", "B. 控制方式", "C. 喷射介质", "D. 设置位置"],
+    "answer": "C"
+  },
+  {
+    "id": "demo_single",
+    "type": "single",
+    "question": "由供水装置、过滤装置、控制阀、细水雾喷头等组件和供水管道组成，能自动和人工启动并喷放细水雾进行灭火或控火的自动灭火系统是()",
+    "options": ["A. 细水雾灭火系统", "B. 水喷雾灭火系统", "C. 雨淋系统", "D. 泡沫-水喷淋灭火系统"],
+    "answer": "A"
+  },
+  {
+    "id": "demo_single",
+    "type": "single",
+    "question": "我国消防工作是一项由政府统一领导、部门依法监管、单位全面负责、公民积极参与、专业队伍与社会各方面协同、群防群治地预防和减少火灾危害，开展应急救援的公共消防安全的()工作。",
+    "options": ["A. 专业性", "B. 特殊性", "C. 专门性", "D. 独立性"],
+    "answer": "C"
+  },
+  {
+    "id": "demo_single",
+    "type": "single",
+    "question": "下列场所或部位应采取排烟等烟气控制措施的是()。",
+    "options": ["A. 建筑高度为36m的厂房内长度为24m的疏散走道", "B. 占地面积为900m²的木器仓库", "C. 建筑面积为3000m²的陶瓷烘干车间", "D. 建筑面积50m²的地下或半地下丙类生产场所"],
+    "answer": "A"
+  },
+  {
+    "id": "demo_single",
+    "type": "single",
+    "question": "《气体灭火系统设计规范》实施时间()。",
+    "options": ["A. 2006年3月2日", "B. 2006年5月1日", "C. 2007年3月1日", "D. 2007年5月1日"],
+    "answer": "B"
+  },
+  {
+    "id": "demo_single",
+    "type": "single",
+    "question": "通过电气火灾监控设备的液晶显示屏查看监控报警信息时，显示内容不包含()。",
+    "options": ["A. 报警时间", "B. 报警部位", "C. 设备类型", "D. 生产商信息"],
+    "answer": "D"
+  },
+  {
+    "id": "demo_single",
+    "type": "single",
+    "question": "显示屏有启动(反馈)信息和报警信息等高等级状态显示期间(优先显示)，可通过()操作切换不同报警事件，手动操作查看故障和屏蔽等低等级状态信息。",
+    "options": ["A. 显示器", "B. 方向键", "C. 自动", "D. 语音"],
+    "answer": "B"
+  },
+  {
+    "id": "demo_single",
+    "type": "single",
+    "question": "()是消防联动控制系统的核心组件。",
+    "options": ["A. 火灾报警控制器", "B. 总线制控制盘", "C. 消防联动控制器", "D. 多线制控制盘"],
+    "answer": "C"
+  },
+  {
+    "id": "demo_single",
+    "type": "single",
+    "question": "当可燃气体报警系统处于正常监视状态时，下列说法正确的是()。",
+    "options": ["A. 可燃气体报警控制器有声音发出", "B. 屏蔽指示灯亮", "C. 备电工作指示灯亮", "D. 液晶显示屏显示\"系统运行正常\""],
+    "answer": "D"
+  },
+  {
+    "id": "demo_single",
+    "type": "single",
+    "question": "线型感温火灾探测器在发生故障时，应在()s内输出故障报警信号，点亮故障指示灯。",
+    "options": ["A. 60", "B. 80", "C. 100", "D. 120"],
+    "answer": "C"
+  },
+  {
+    "id": "demo_single",
+    "type": "single",
+    "question": "严禁系统误喷的场所应采用()。",
+    "options": ["A. 干式系统", "B. 预作用系统", "C. 湿式系统", "D. 雨淋系统"],
+    "answer": "B"
+  },
+  {
+    "id": "demo_single",
+    "type": "single",
+    "question": "通过消防控制室总线手动控制单元远程启动防火卷帘，按下总线手动控制单元防火卷帘启动按钮后，总线手动控制单元的防火卷帘()应点亮。",
+    "options": ["A. 运行灯", "B. 启动灯", "C. 反馈灯", "D. 复位灯"],
+    "answer": "B"
+  },
+  {
+    "id": "demo_single",
+    "type": "single",
+    "question": "()用于不仅需要报警，同时需要联动自动消防设备，且只设置一台具有集中控制功能的火灾报警控制器和消防联动控制器的保护对象。",
+    "options": ["A. 区域报警系统", "B. 集中报警系统", "C. 控制中心报警系统", "D. 消防联动控制系统"],
     "answer": "B"
   },
   {
