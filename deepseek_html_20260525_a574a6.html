@@ -1,0 +1,521 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+    <title>智能刷题 | 固定题型顺序 | 满分100分</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            background: #f1f5f9;
+            font-family: 'Segoe UI', Roboto, system-ui, sans-serif;
+            padding: 16px;
+        }
+
+        .app-container {
+            max-width: 1600px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 28px;
+            box-shadow: 0 20px 35px -12px rgba(0,0,0,0.1);
+            overflow: hidden;
+        }
+
+        .header {
+            background: #0f172a;
+            padding: 20px 28px;
+            color: white;
+        }
+        .header h1 {
+            font-size: 1.6rem;
+            font-weight: 600;
+        }
+        .header .sub {
+            font-size: 0.85rem;
+            opacity: 0.8;
+            margin-top: 6px;
+        }
+
+        .toolbar {
+            background: #ffffff;
+            padding: 12px 24px;
+            border-bottom: 1px solid #e2e8f0;
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            justify-content: space-between;
+            gap: 12px;
+        }
+        .status-badge {
+            background: #eef2ff;
+            padding: 5px 14px;
+            border-radius: 40px;
+            font-size: 0.8rem;
+            font-weight: 500;
+            color: #1e293b;
+        }
+        .btn-group {
+            display: flex;
+            gap: 10px;
+            flex-wrap: wrap;
+        }
+        button {
+            background: #334155;
+            border: none;
+            color: white;
+            padding: 6px 20px;
+            border-radius: 40px;
+            font-weight: 500;
+            cursor: pointer;
+            font-size: 0.8rem;
+            transition: 0.2s;
+        }
+        button.primary {
+            background: #0f172a;
+        }
+        button.primary:hover {
+            background: #1e293b;
+        }
+        button.success {
+            background: #059669;
+        }
+        button.danger {
+            background: #dc2626;
+        }
+        .score-panel {
+            background: #f0fdf4;
+            padding: 6px 18px;
+            border-radius: 40px;
+            font-weight: bold;
+            color: #166534;
+            font-size: 0.9rem;
+        }
+
+        .main-layout {
+            display: flex;
+            gap: 0;
+            min-height: 70vh;
+        }
+        .nav-sidebar {
+            flex: 0 0 220px;
+            background: #f8fafc;
+            border-right: 1px solid #e2e8f0;
+            padding: 20px 12px;
+            overflow-y: auto;
+            max-height: 75vh;
+        }
+        .nav-sidebar h3 {
+            font-size: 0.9rem;
+            margin-bottom: 12px;
+            color: #0f172a;
+            padding-left: 8px;
+        }
+        .question-nav {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 8px;
+        }
+        .nav-item {
+            width: 44px;
+            height: 44px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background: #e2e8f0;
+            border-radius: 14px;
+            font-size: 0.8rem;
+            font-weight: 600;
+            cursor: pointer;
+            transition: 0.1s;
+            color: #1e293b;
+        }
+        .nav-item:hover {
+            background: #cbd5e1;
+            transform: scale(0.96);
+        }
+        .nav-item.answered { background: #3b82f6; color: white; }
+        .nav-item.correct { background: #10b981; color: white; }
+        .nav-item.wrong { background: #ef4444; color: white; }
+        .nav-item.unanswered { background: #e2e8f0; color: #334155; }
+
+        .questions-area {
+            flex: 1;
+            padding: 20px 28px;
+            max-height: 75vh;
+            overflow-y: auto;
+            background: #ffffff;
+        }
+        .question-card {
+            background: #ffffff;
+            border: 1px solid #eef2ff;
+            border-radius: 24px;
+            padding: 20px 24px;
+            margin-bottom: 24px;
+            scroll-margin-top: 20px;
+        }
+        .correct-highlight {
+            background: #f0fdf4;
+            border-left: 5px solid #22c55e;
+        }
+        .wrong-highlight {
+            background: #fff7ed;
+            border-left: 5px solid #f97316;
+        }
+        .q-header {
+            display: flex;
+            gap: 12px;
+            align-items: baseline;
+            flex-wrap: wrap;
+            margin-bottom: 14px;
+        }
+        .badge {
+            background: #eef2ff;
+            padding: 4px 14px;
+            border-radius: 30px;
+            font-size: 0.7rem;
+            font-weight: 600;
+        }
+        .question-text {
+            font-weight: 500;
+            font-size: 1rem;
+            line-height: 1.5;
+            margin-bottom: 16px;
+        }
+        .options {
+            display: flex;
+            flex-direction: column;
+            gap: 12px;
+            margin-left: 8px;
+        }
+        .option {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+        }
+        input[type="radio"], input[type="checkbox"] {
+            width: 18px;
+            height: 18px;
+            cursor: pointer;
+            accent-color: #2c3e50;
+        }
+        .footer {
+            background: #f9fafb;
+            padding: 12px 24px;
+            border-top: 1px solid #e2e8f0;
+            text-align: right;
+        }
+
+        @media (max-width: 780px) {
+            .main-layout {
+                flex-direction: column;
+            }
+            .nav-sidebar {
+                flex: auto;
+                border-right: none;
+                border-bottom: 1px solid #e2e8f0;
+                max-height: 140px;
+                overflow-x: auto;
+                overflow-y: hidden;
+                white-space: nowrap;
+            }
+            .question-nav {
+                flex-wrap: nowrap;
+                overflow-x: auto;
+                padding-bottom: 8px;
+            }
+            .nav-item {
+                flex-shrink: 0;
+            }
+            .questions-area {
+                max-height: 60vh;
+                padding: 16px;
+            }
+            .question-card {
+                padding: 16px;
+            }
+        }
+    </style>
+</head>
+<body>
+<div class="app-container">
+    <div class="header">
+        <h1>📖 智能刷题 · 固定顺序卷</h1>
+        <div class="sub">判断60 → 单选100 → 多选40 | 随机抽题 | 满分100分 (每题0.5分)</div>
+    </div>
+
+    <div class="toolbar">
+        <div class="status-badge" id="loadStatus">⚙️ 加载题库中...</div>
+        <div class="btn-group">
+            <button id="generateBtn" class="primary">✨ 随机生成试卷</button>
+            <button id="submitBtn" class="success">📊 提交评分</button>
+            <button id="clearBtn" class="danger">🗑️ 清空答案</button>
+        </div>
+        <div id="scorePanel" class="score-panel">未评分</div>
+    </div>
+
+    <div class="main-layout">
+        <div class="nav-sidebar">
+            <h3>📌 题号导航</h3>
+            <div id="questionNav" class="question-nav">等待加载</div>
+        </div>
+        <div id="questionsContainer" class="questions-area">
+            <div style="text-align:center; padding:60px;">📁 正在加载题库，请稍候...</div>
+        </div>
+    </div>
+    <div class="footer">
+        <button id="scrollTop">↑ 回到顶部</button>
+    </div>
+</div>
+
+<script>
+    // ---------- 全局变量 ----------
+    let fullBank = [];
+    let currentExam = [];
+    let lastScoreCorrectness = null;
+
+    const REQUIRED = { judge: 60, single: 100, multiple: 40 };
+
+    // 提取选项字母
+    function extractLetter(opt) {
+        const match = opt.match(/^([A-Z])[\.、]?\s*/);
+        return match ? match[1] : opt;
+    }
+
+    function parseOptions(q) {
+        if (!q.options) return [];
+        if (q.type === 'judge') {
+            return q.options.map(opt => ({ value: opt, label: opt }));
+        }
+        return q.options.map(opt => ({ value: extractLetter(opt), label: opt }));
+    }
+
+    // 随机抽取不重复
+    function randomPickByType(bank, type, count) {
+        const filtered = bank.filter(q => q.type === type);
+        if (filtered.length <= count) return [...filtered];
+        const shuffled = [...filtered];
+        for (let i = shuffled.length - 1; i > 0; i--) {
+            const j = Math.floor(Math.random() * (i + 1));
+            [shuffled[i], shuffled[j]] = [shuffled[j], shuffled[i]];
+        }
+        return shuffled.slice(0, count);
+    }
+
+    function buildOrderedPaper() {
+        const judgeList = randomPickByType(fullBank, 'judge', REQUIRED.judge);
+        const singleList = randomPickByType(fullBank, 'single', REQUIRED.single);
+        const multiList = randomPickByType(fullBank, 'multiple', REQUIRED.multiple);
+        return [...judgeList, ...singleList, ...multiList];
+    }
+
+    function isAnswered(index) {
+        const q = currentExam[index];
+        if (!q) return false;
+        if (q.type === 'single' || q.type === 'judge') {
+            return document.querySelector(`input[name="q_${index}"]:checked`) !== null;
+        } else {
+            return document.querySelectorAll(`input[name="q_${index}"]:checked`).length > 0;
+        }
+    }
+
+    function getUserAnswer(index) {
+        const q = currentExam[index];
+        if (q.type === 'single' || q.type === 'judge') {
+            const selected = document.querySelector(`input[name="q_${index}"]:checked`);
+            return selected ? selected.value : null;
+        } else {
+            const checked = document.querySelectorAll(`input[name="q_${index}"]:checked`);
+            return checked.length ? Array.from(checked).map(cb => cb.value) : null;
+        }
+    }
+
+    function refreshNavigation() {
+        const navDiv = document.getElementById('questionNav');
+        if (!navDiv || !currentExam.length) return;
+        let html = '';
+        for (let i = 0; i < currentExam.length; i++) {
+            let statusClass = 'unanswered';
+            if (lastScoreCorrectness !== null) {
+                statusClass = lastScoreCorrectness[i] ? 'correct' : 'wrong';
+            } else {
+                statusClass = isAnswered(i) ? 'answered' : 'unanswered';
+            }
+            html += `<div class="nav-item ${statusClass}" data-index="${i}">${i+1}</div>`;
+        }
+        navDiv.innerHTML = html;
+        document.querySelectorAll('.nav-item').forEach(el => {
+            el.addEventListener('click', () => {
+                const idx = parseInt(el.dataset.index);
+                const card = document.getElementById(`card_${idx}`);
+                if (card) {
+                    card.scrollIntoView({ behavior: 'smooth', block: 'center' });
+                    card.style.backgroundColor = '#fef9e3';
+                    setTimeout(() => { card.style.backgroundColor = ''; }, 800);
+                }
+            });
+        });
+    }
+
+    function bindInputEvents() {
+        for (let i = 0; i < currentExam.length; i++) {
+            const inputs = document.querySelectorAll(`input[name="q_${i}"]`);
+            inputs.forEach(input => {
+                input.removeEventListener('change', () => { if (lastScoreCorrectness === null) refreshNavigation(); });
+                input.addEventListener('change', () => { if (lastScoreCorrectness === null) refreshNavigation(); });
+            });
+        }
+    }
+
+    function renderPaper() {
+        const container = document.getElementById('questionsContainer');
+        if (!currentExam.length) {
+            container.innerHTML = '<div style="text-align:center; padding:60px;">请先生成试卷</div>';
+            return;
+        }
+        let html = '';
+        currentExam.forEach((q, idx) => {
+            const typeLabel = q.type === 'single' ? '🔘 单选' : (q.type === 'multiple' ? '☑️ 多选' : '⚖️ 判断');
+            const parsed = parseOptions(q);
+            let optsHtml = '';
+            if (q.type === 'single') {
+                parsed.forEach((opt, optIdx) => {
+                    optsHtml += `<div class="option">
+                        <input type="radio" name="q_${idx}" value="${opt.value}" id="q_${idx}_${optIdx}">
+                        <label for="q_${idx}_${optIdx}">${escapeHtml(opt.label)}</label>
+                    </div>`;
+                });
+            } else if (q.type === 'multiple') {
+                parsed.forEach((opt, optIdx) => {
+                    optsHtml += `<div class="option">
+                        <input type="checkbox" name="q_${idx}" value="${opt.value}" id="q_${idx}_cb_${optIdx}">
+                        <label for="q_${idx}_cb_${optIdx}">${escapeHtml(opt.label)}</label>
+                    </div>`;
+                });
+            } else {
+                optsHtml = `<div class="option"><input type="radio" name="q_${idx}" value="正确" id="q_${idx}_t"><label for="q_${idx}_t">✅ 正确</label></div>
+                            <div class="option"><input type="radio" name="q_${idx}" value="错误" id="q_${idx}_f"><label for="q_${idx}_f">❌ 错误</label></div>`;
+            }
+            html += `<div class="question-card" id="card_${idx}">
+                        <div class="q-header">
+                            <span class="badge">${typeLabel}</span>
+                            <span>第 ${idx+1} 题 · 0.5分</span>
+                        </div>
+                        <div class="question-text">${escapeHtml(q.question)}</div>
+                        <div class="options">${optsHtml}</div>
+                    </div>`;
+        });
+        container.innerHTML = html;
+        bindInputEvents();
+        lastScoreCorrectness = null;
+        document.getElementById('scorePanel').innerHTML = '📝 待评分';
+        for (let i = 0; i < currentExam.length; i++) {
+            const card = document.getElementById(`card_${i}`);
+            if (card) card.classList.remove('correct-highlight', 'wrong-highlight');
+        }
+        refreshNavigation();
+    }
+
+    function submitScore() {
+        if (!currentExam.length) { alert("没有试卷，请先生成"); return; }
+        let totalScore = 0;
+        let correctCount = 0;
+        const correctness = new Array(currentExam.length).fill(false);
+        for (let i = 0; i < currentExam.length; i++) {
+            const q = currentExam[i];
+            const userAns = getUserAnswer(i);
+            let isCorrect = false;
+            if (q.type === 'single' || q.type === 'judge') {
+                isCorrect = (userAns !== null && userAns === q.answer);
+            } else if (q.type === 'multiple') {
+                if (userAns && Array.isArray(q.answer)) {
+                    const sortedUser = [...userAns].sort();
+                    const sortedAns = [...q.answer].sort();
+                    isCorrect = sortedUser.length === sortedAns.length && sortedUser.every((v, idx) => v === sortedAns[idx]);
+                }
+            }
+            if (isCorrect) {
+                totalScore += 0.5;
+                correctCount++;
+            }
+            correctness[i] = isCorrect;
+            const card = document.getElementById(`card_${i}`);
+            if (card) {
+                card.classList.remove('correct-highlight', 'wrong-highlight');
+                card.classList.add(isCorrect ? 'correct-highlight' : 'wrong-highlight');
+            }
+        }
+        lastScoreCorrectness = correctness;
+        refreshNavigation();
+        document.getElementById('scorePanel').innerHTML = `🏆 得分: ${totalScore.toFixed(1)} / 100 (正确${correctCount}/${currentExam.length})`;
+    }
+
+    function clearAnswers() {
+        if (!currentExam.length) return;
+        for (let i = 0; i < currentExam.length; i++) {
+            document.querySelectorAll(`input[name="q_${i}"]`).forEach(inp => {
+                if (inp.type === 'radio') inp.checked = false;
+                if (inp.type === 'checkbox') inp.checked = false;
+            });
+            const card = document.getElementById(`card_${i}`);
+            if (card) card.classList.remove('correct-highlight', 'wrong-highlight');
+        }
+        lastScoreCorrectness = null;
+        refreshNavigation();
+        document.getElementById('scorePanel').innerHTML = '🧹 答案已清空';
+    }
+
+    function generateExam() {
+        if (!fullBank.length) {
+            alert("题库尚未加载完成，请刷新页面重试");
+            return;
+        }
+        const judgeTotal = fullBank.filter(q => q.type === 'judge').length;
+        const singleTotal = fullBank.filter(q => q.type === 'single').length;
+        const multiTotal = fullBank.filter(q => q.type === 'multiple').length;
+        if (judgeTotal < 60) console.warn(`⚠️ 判断题只有 ${judgeTotal} 道`);
+        if (singleTotal < 100) console.warn(`⚠️ 单选题只有 ${singleTotal} 道`);
+        if (multiTotal < 40) console.warn(`⚠️ 多选题只有 ${multiTotal} 道`);
+        currentExam = buildOrderedPaper();
+        renderPaper();
+    }
+
+    // 自动加载同目录下的 questions.json
+    async function loadQuestionsFromServer() {
+        try {
+            const response = await fetch('./questions.json');
+            if (!response.ok) throw new Error(`HTTP ${response.status}`);
+            const data = await response.json();
+            if (!Array.isArray(data)) throw new Error('JSON不是数组');
+            fullBank = data;
+            const judgeCount = fullBank.filter(q => q.type === 'judge').length;
+            const singleCount = fullBank.filter(q => q.type === 'single').length;
+            const multiCount = fullBank.filter(q => q.type === 'multiple').length;
+            document.getElementById('loadStatus').innerHTML = `✅ 题库: 判断${judgeCount} 单选${singleCount} 多选${multiCount}`;
+            generateExam(); // 自动生成首套试卷
+        } catch (err) {
+            console.error(err);
+            document.getElementById('loadStatus').innerHTML = `❌ 加载失败: ${err.message}`;
+            document.getElementById('questionsContainer').innerHTML = `<div style="text-align:center; padding:60px;">⚠️ 无法加载 questions.json，请检查文件是否存在于同目录下。托管环境请确认文件路径正确。</div>`;
+        }
+    }
+
+    function escapeHtml(str) {
+        return String(str).replace(/[&<>]/g, m => m === '&' ? '&amp;' : (m === '<' ? '&lt;' : '&gt;'));
+    }
+
+    // 绑定按钮事件
+    document.getElementById('generateBtn').addEventListener('click', generateExam);
+    document.getElementById('submitBtn').addEventListener('click', submitScore);
+    document.getElementById('clearBtn').addEventListener('click', clearAnswers);
+    document.getElementById('scrollTop').addEventListener('click', () => window.scrollTo({ top: 0, behavior: 'smooth' }));
+
+    // 启动加载
+    loadQuestionsFromServer();
+</script>
+</body>
+</html>
